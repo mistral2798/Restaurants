@@ -7,3 +7,4 @@ rest['Дата посещения'] = rest['Дата посещения'].dt.to_
 st.title('Витрина посещенных ресторанов')
 
 st.dataframe(rest, hide_index=True, use_container_width=True)
+#
